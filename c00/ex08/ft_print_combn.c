@@ -39,10 +39,3 @@ void	ft_print_combn(int n)
 	depth = 0;
 	ft_print_combn_depth(depth, n, i, &arr[depth]);
 }
-
-int	main(int argc, char *argv[])
-{
-	if (argc == 0)
-		return (0);
-	ft_print_combn(*argv[1] - '0');
-}
