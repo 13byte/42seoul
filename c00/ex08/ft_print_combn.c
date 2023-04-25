@@ -32,8 +32,8 @@ void	ft_print_combn_depth(int depth, int n, int i, char *arr)
 void	ft_print_combn(int n)
 {
 	char	arr[10];
-	int		depth;
-	int		i;
+	int	depth;
+	int	i;
 
 	i = 0;
 	depth = 0;
